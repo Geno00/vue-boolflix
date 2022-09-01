@@ -4,7 +4,7 @@
 
     <div class="card_hover">
         <h4>{{info.title || info.name}}</h4>
-        <!-- <img :src="`https://image.tmdb.org/t/p/w185/${info.poster_path}`" :alt="`${info.original_title || info.original_name}`"> -->
+        
         <h5>{{info.original_title || info.original_name}}</h5>
         <div class="flags">
           <img v-if="flags.includes(info.original_language)" :src="require(`../../assets/img/${info.original_language}.png`)" :alt="info.original_language">
