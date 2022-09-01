@@ -1,0 +1,45 @@
+@import "./partials/variables.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+.header {
+    width: 100vw;
+    height: 100px;
+    background-color: $background-black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    width: 80%;
+    margin: 30px auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+}
+
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+h2 {
+    color: $text-white;
+    padding: 20px 0 20px 10px;
+}
